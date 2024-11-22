@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav py-[22.5px]">
+        <div class="container">
+          <div class="nav__wrapper flex justify-center tablet:justify-between items-center">
+            <div class="nav__logo">
+              <img src="./assets/icons/nav__logo.svg" alt="" />
+            </div>
+            <div class="nav__btns flex gap-[28px] ">
+              <a
+                class="nav__btn hidden desktop:block py-[18px] px-[50px] rounded-[20px] text-[#009379] bg-[#E5F4F2] hover:text-[#fff] hover:bg-[#009379] duration-300"
+                href=""
+              >
+                <span>Contact</span>
+              </a>
+              <a
+                class="nav__btn hidden tablet:block py-[18px] px-[50px] rounded-[20px] text-[#009379] bg-[#E5F4F2] hover:text-[#fff] hover:bg-[#009379] duration-300"
+                href=""
+              >
+                <span>How it works</span>
+              </a>
+              <a
+                class="nav__btn hidden desktop:block py-[18px] px-[50px] rounded-[20px] text-[#009379] bg-[#E5F4F2] hover:text-[#fff] hover:bg-[#009379] duration-300"
+                href=""
+              >
+                <span>Get Started</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper flex-col text-center desktop:flex desktop:justify-between desktop:items-center desktop:text-left">
+            <div class="hero__main">
+              <h1 class="hero__tiltle text-[38px] font-bold">
+                Create Engaging <br>
+                Landing Pages
+              </h1>
+              <p class="hero__info text-[21px] mb-[30px]">
+                Build beautiful landing pages in record time with <a class="hero__info__link text-blue-600 " href="https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-lp-ui-kit&utm_medium=figma-samples">Anima’s</a> Landing <br>
+                Page UI kit for Figma. No code required!
+              </p>
+              <div class="hero__btns flex gap-[20px]">
+                <a class="m-auto mb-[30px] desktop:m-0 py-[18px] px-[50px] rounded-[20px] bg-white border-[2px] border-[#009379] text-[#009379] hover:text-[#fff] hover:bg-[#009379] duration-300  " href="">Get Started</a>
+                <a class="hidden desktop:block py-[18px] px-[50px] rounded-[20px] bg-white border-[2px] border-[#009379] text-[#009379] hover:text-[#fff] hover:bg-[#009379] duration-300" href="">How it works</a>
+              </div>
+            </div>
+            <div class="hero__img">
+              <img class="m-auto desktop:block" src="./assets/images/hero__img.png" alt="hero image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="companies">
+        <div class="container">
+          <hr class="mt-[60px]">
+          <div class="companies__wrapper flex flex-wrap items-center py-[60px] m-auto desktop:block desktop:flex desktop:gap-[50px] desktop:justify-center">
+            <div class="flex gap-[40px] m-auto desktop:m-0 desktop:justify-between">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/first__company.svg" alt="">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/second__company.svg" alt="">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/third__company.svg" alt="">
+            </div>
+            <div class="flex gap-[40px] m-auto mt-[30px] tablet:m-0 desktop:m-0 desktop:justify-between">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/forth__company.svg" alt="">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/fivth__company.svg" alt="">
+              <img class="w-[150px] tablet:w-[90px]" src="./assets/icons/sixth__company.svg" alt="">
+            </div>
+          </div>
+          <hr>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h1 class="features__title text-[38px] font-bold text-center mt-[60px]">
+            Features
+          </h1>
+          <p class="features__info text-[16px] text-center mt-[20px]">
+            Few good reasons why you should use <br>
+            Anima Landing Page Ui Kit to make your <br>
+            own pages.
+          </p>
+          <div class="features__wrapper desktop:flex">
+            <div class="features__card w-[315px] bg-white rounded-[20px] py-[40px] px-[30px] text-center m-auto mt-[30px] tablet:w-[800px] desktop:w-[315px] hover:drop-shadow-2xl duration-300">
+              <div class="card__img">
+                <img class="m-auto" src="./assets/icons/features__icon.svg" alt="">
+              </div>
+              <h1 class="card__title text-[28px] font-bold mt-[30px]">
+                Fast building
+              </h1>
+              <p class="card__info mt-[24px]">
+                Tailor Anima's Landing Page UI <br>
+                Kit to your unique style and brand <br>
+                with customisable components, in <br>
+                no time!
+              </p>
+              <div class="card__btn flex items-center gap-[10px] ml-[80px] mt-[30px] text-[#009379] tablet:ml-[320px] desktop:ml-[80px]">
+                <a href="">Learn More</a>
+                <img src="./assets/icons/features__btn.svg" alt="">
+              </div>
+            </div>
+            <div class="features__card w-[315px] bg-white rounded-[20px] py-[40px] px-[30px] text-center m-auto mt-[30px] tablet:w-[800px] desktop:w-[315px] hover:drop-shadow-2xl duration-300">
+              <div class="card__img">
+                <img class="m-auto" src="./assets/icons/features__icon.svg" alt="">
+              </div>
+              <h1 class="card__title text-[28px] font-bold mt-[30px]">
+                Fast building
+              </h1>
+              <p class="card__info mt-[24px]">
+                Tailor Anima's Landing Page UI <br>
+                Kit to your unique style and brand <br>
+                with customisable components, in <br>
+                no time!
+              </p>
+              <div class="card__btn flex items-center gap-[10px] ml-[80px] mt-[30px] text-[#009379] tablet:ml-[320px] desktop:ml-[80px]">
+                <a href="">Learn More</a>
+                <img src="./assets/icons/features__btn.svg" alt="">
+              </div>
+            </div>
+            <div class="features__card w-[315px] bg-white rounded-[20px] py-[40px] px-[30px] text-center m-auto mt-[30px] tablet:w-[800px] desktop:w-[315px] hover:drop-shadow-2xl duration-300">
+              <div class="card__img">
+                <img class="m-auto" src="./assets/icons/features__icon.svg" alt="">
+              </div>
+              <h1 class="card__title text-[28px] font-bold mt-[30px]">
+                Fast building
+              </h1>
+              <p class="card__info mt-[24px]">
+                Tailor Anima's Landing Page UI <br>
+                Kit to your unique style and brand <br>
+                with customisable components, in <br>
+                no time!
+              </p>
+              <div class="card__btn flex items-center gap-[10px] ml-[80px] mt-[30px] text-[#009379] tablet:ml-[320px] desktop:ml-[80px]">
+                <a href="">Learn More</a>
+                <img src="./assets/icons/features__btn.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story">
+        <div class="container">
+          <h1 class="story__title text-[38px] font-bold text-center mt-[60px] ">
+            Our Metrics Tell <br class="tablet:hidden">the Story
+          </h1>
+          <p class="story__info text-[16px] text-center mt-[20px]">
+            Our metrics component gives you the <br class="tablet:hidden">inside scoop on your success and helps <br class="tablet:hidden">you stay on top of your game in style.
+          </p>
+          <div class="story__wrapper flex flex-wrap gap-[20px] justify-center mt-[40px] tablet:block tablet:flex tablet:gap-[20px]">
+            <div class="story__card w-[270px] h-[171px] bg-white rounded-[20px] py-[30px] px-[16px] hover:drop-shadow-2xl duration-300 tablet:w-[150px] desktop:w-[270px]">
+              <h1 class="card__title text-[28px] font-bold text-center">
+                5000+
+              </h1>
+              <p class="card__info text-[16px] text-center mt-[10px]">
+                Website <br>launched with <br>Anima
+              </p>
+            </div>
+            <div class="story__card w-[270px] h-[171px] bg-white rounded-[20px] py-[30px] px-[16px] hover:drop-shadow-2xl duration-300 tablet:w-[150px] desktop:w-[270px]">
+              <h1 class="card__title text-[28px] font-bold text-center">
+                5000+
+              </h1>
+              <p class="card__info text-[16px] text-center mt-[10px]">
+                Website <br>launched with <br>Anima
+              </p>
+            </div>
+            <div class="story__card w-[270px] h-[171px] bg-white rounded-[20px] py-[30px] px-[16px] hover:drop-shadow-2xl duration-300 tablet:w-[150px] desktop:w-[270px]">
+              <h1 class="card__title text-[28px] font-bold text-center">
+                5000+
+              </h1>
+              <p class="card__info text-[16px] text-center mt-[10px]">
+                Website <br>launched with <br>Anima
+              </p>
+            </div>
+            <div class="story__card w-[270px] h-[171px] bg-white rounded-[20px] py-[30px] px-[16px] hover:drop-shadow-2xl duration-300 tablet:w-[150px] desktop:w-[270px]">
+              <h1 class="card__title text-[28px] font-bold text-center">
+                5000+
+              </h1>
+              <p class="card__info text-[16px] text-center mt-[10px]">
+                Website <br>launched with <br>Anima
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrapper tablet:flex tablet:items-center desktop:justify-between">
+            <div class="intro__img mt-[120px]">
+              <img class="m-auto" src="./assets/images/intro__img.png" alt="">
+            </div>
+            <div class="intro__main text-center tablet:text-left tablet:mt-[150px]">
+              <h1 class="intro__title text-[38px] font-bold">
+                Get Landing Page UI <br class="tablet:hidden">Kit Today!
+              </h1>
+              <p class="intro__info text-[16px] tablet:mt-[20px]">
+                Break the Figma limits and explore the <br>
+                endless possibilities with Anima.
+              </p>
+              <div class="intro__btn flex items-center  gap-[10px] text-[#fff]">
+                <a class="bg-[#009379] py-[18px] px-[50px] rounded-2xl m-auto tablet:m-0 mt-[40px] tablet:mt-[20px] hover:bg-white border-[2px] hover:border-[#009379] hover:text-[#009379] duration-300" href="">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
